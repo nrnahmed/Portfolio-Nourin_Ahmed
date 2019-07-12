@@ -151,6 +151,16 @@ p {
 	color: #606266;
 }
 
+#skills .row {
+	background-color: #232323; margin-top: 0px;
+}
+
+#skills .heading_text {
+	padding-top: 45px;
+}
+
+
+
 .certification p{
     font-family: 'Acme', sans-serif;
 	font-size: 16px;
@@ -159,21 +169,87 @@ p {
 
 }
 
+.lict {
+	padding-left: 50px; margin-top: 65px;
+}
+
+.lict h3{
+    margin-top: 2px;
+}
+
+.uBootstrap {
+	padding-left: 50px; margin-top: 35px;
+}
+
+.uBootstrap h3 {
+	margin-top: 2px;
+}
+
+.bitm {
+	padding-left: 30px; margin-top: 65px;
+}
+
+.bitm h3 {
+    margin-top: 2px;
+}
+
+.uJs {
+	padding-left: 30px; margin-top: 15px;
+}
+
+.uJs h3 {
+	margin-top: 35px;
+}
+
+.uJs .container {
+	margin-top: 35px;
+}
+
+#certification .heading p {
+	margin-top: 150px;
+}
+
+.certification .container span {
+	width: 200px; 
+}
+
+#portfolio {
+    background-color: #f7ffc2;
+}
+
+#portfolio .heading p {
+	padding-top: 30px;
+
+}
+
+#portfolio .heading h2 {
+	padding-left: 100px;
+}
+
 .prtfolio {
-    padding-left: 380px; 
+    padding-left: 150px; 
     margin-top: 14px; 
     padding-bottom: 100px;
-    width: 800px;
+    width: 500px;
     height: 100%;
     opacity: 0.7;
 }
 
 .prtfolio:hover {
-	width: 900px;
+	width: 550px;
 	height: 100%;
 	opacity: 1;
-	padding-left: 260px; 
+	padding-left: 100px; 
 
+}
+
+.project {
+	width: 500px;
+}
+
+.project h3 {
+	text-align: center;
+	padding-left: 150px; padding-top: 40px;
 }
 
 /* Style all font awesome icons */
@@ -262,6 +338,14 @@ p {
 	position: center;
 }
 
+.cntctrow .row {
+	background-color: #161616; margin-top: 0px;
+}
+
+.cntctrow .heading {
+	padding-top: 50px;
+}
+
 fieldset 
 {
     border: none;
@@ -329,12 +413,33 @@ input[aria-invalid="true"], textarea[aria-invalid="true"] {
 
 }
 
+.footer .row {
+	margin-top: 0px;
+}
+
+.footer .img-fluid{
+    padding-top: 30px; padding-left: 10px;
+}
+
+.f_cntct h4 {
+	color: #a8af8e; padding-right: 480px; padding-top: 35px;
+}
+
+.f_cntct p {
+	color: #a8af8e; padding-right: 321px; font-family: 'Cormorant Garamond', serif; font-size: 14px;
+}
+
+.f_social h4 {
+	color: #a8af8e; padding-right: 170px; padding-top: 35px;
+}
+
 #f_name{
 
     color: #C3EAF7; 
     padding: 40px 0px 0px 0px;
     font-family: 'Berkshire Swash', cursive;
     font-size: 14px;
+    padding-bottom: 35px;
 }
 
 .web {
